@@ -457,7 +457,7 @@ static void resetConf(void)
 #endif
 	masterConfig.rf_loop_ctrl = 2;                 // High DLPF, H4
 
-#if defined(CC3D) || defined(MOTOLAB) || defined(LUX_RACE)
+#if defined(CC3D) || defined(MOTOLAB) || defined(LUX_RACE) || defined(PIKOBLX)
     masterConfig.acc_hardware = 1;     // default/autodetect
 #endif
         
